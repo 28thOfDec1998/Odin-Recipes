@@ -45,8 +45,68 @@
     isolation: isolate;
   }
 
-  body{
+
+  html{
     font-family: Arial, Helvetica, sans-serif;
   }
 
+  .wrapper{
+    background-image: linear-gradient(
+      30deg,
+      hsl(205deg 100% 87%) 1%,
+      hsl(205deg 99% 87%) 43%,
+      hsl(205deg 99% 86%) 50%,
+      hsl(205deg 98% 86%) 51%,
+      hsl(205deg 98% 85%) 51%,
+      hsl(205deg 97% 85%) 49%,
+      hsl(205deg 97% 84%) 49%,
+      hsl(205deg 96% 84%) 50%,
+      hsl(205deg 96% 83%) 57%,
+      hsl(205deg 96% 83%) 99%
+    );
+  
+ }
+
+  .title{
+    padding-top: 3rem;
+    margin-bottom: 3rem;
+    text-align: center;
+  }  
+
+  .recipes{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 10px;
+  }
+
+  .items{
+    margin-bottom: 1.5rem;
+  }
+
+  .items img {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    display: block;
+    opacity: 1;
+	  transition: .3s ease-in-out;
+  }
+   .items :hover img{
+    opacity: .5;
+   }
+
+  .items p{
+    color: black;
+    text-align: center;
+    font-size: 15px;
+    margin: 10px 0;
+  }
+
+  .items a{
+      text-decoration: none;
+      display: block;
+  }
+
+  
   
