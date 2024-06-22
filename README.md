@@ -1,3 +1,3 @@
 # Oden-Recipes
 
-live : https://kelvin3c.github.io/Odin-Recipes/
+live : https://28thofdec1998.github.io/Odin-Recipes/
